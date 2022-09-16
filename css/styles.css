@@ -103,6 +103,8 @@ body{
     radial-gradient(
         2.5px 2.5px at 110px 80px, white, rgba(255,255,255,0)
     );
+    /* This allows us to "click through" the rotation gradient */
+    pointer-events: none;
 }
 .stars2 {
     animation: space 180s ease-in-out infinite;
@@ -137,6 +139,8 @@ body{
         white, 
         rgba(255, 255, 255, 0)
       );
+      /* This allows us to "click through" the rotation gradient */
+      pointer-events: none;
 }
 .stars3 {
     animation: space 240s ease-in-out infinite;
@@ -171,40 +175,8 @@ body{
         white, 
         rgba(255, 255, 255, 0)
       );
-  }
-  .stars4 {
-    animation: space 300s ease-in-out infinite;
-    background-image:
-    radial-gradient(
-        3px 3px at 105px 125px, 
-        white, 
-        rgba(255, 255, 255, 0)
-      ),
-      radial-gradient(
-        1px 1px at 180px 75px, 
-        white, 
-        rgba(255, 255, 255, 0)
-      ),
-      radial-gradient(
-        1.5px 1.5px at 199px 100px, 
-        white, 
-        rgba(255, 255, 255, 0)
-      ),
-      radial-gradient(
-        2px 2px at 20px 50px, 
-        white, 
-        rgba(255, 255, 255, 0)
-      ),
-      radial-gradient(
-        2.5px 2.5px at 100px 5px, 
-        white, 
-        rgba(255, 255, 255, 0)
-      ),
-      radial-gradient(
-        2.5px 2.5px at 5px 5px, 
-        white, 
-        rgba(255, 255, 255, 0)
-      );
+      /* This allows us to "click through" the rotation gradient */
+      pointer-events: none;
   }
   @keyframes space {
       40% {
